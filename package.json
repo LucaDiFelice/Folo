@@ -71,6 +71,7 @@
     "tailwindcss-animate": "1.0.7",
     "tailwindcss-motion": "1.1.0",
     "tailwindcss-safe-area": "0.6.0",
+    "tailwindcss-uikit-colors": "0.5.0",
     "tar": "7.4.3",
     "tsx": "4.19.3",
     "turbo": "2.5.0",
@@ -97,7 +98,8 @@
       "@microflash/remark-callout-directives": "patches/@microflash__remark-callout-directives.patch",
       "react-native-track-player": "patches/react-native-track-player.patch",
       "react-native-sheet-transitions": "patches/react-native-sheet-transitions.patch",
-      "react-native-screens": "patches/react-native-screens.patch"
+      "react-native-screens": "patches/react-native-screens.patch",
+      "expo-image": "patches/expo-image.patch"
     },
     "overrides": {
       "@electron/node-gyp": "10.2.0-electron.2",
