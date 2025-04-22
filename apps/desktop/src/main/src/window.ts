@@ -27,6 +27,7 @@ const windows = {
 globalThis["windows"] = windows
 const { platform } = process
 const __dirname = fileURLToPath(new URL(".", import.meta.url))
+
 export function createWindow(
   options: {
     extraPath?: string

@@ -32,7 +32,9 @@ if (DEV) console.info("[main] env loaded:", env)
 
 const apiURL = process.env["VITE_API_URL"] || import.meta.env.VITE_API_URL
 
+// print out the device id
 console.info("[main] device id:", DEVICE_ID)
+// if the app is being launched in a special mode
 if (squirrelStartup) {
   app.quit()
 }
@@ -129,7 +131,6 @@ function bootstrap() {
     })
 
     // for dev debug
-
     if (process.env.NODE_ENV === "development") {
       import("electron-devtools-installer").then(
         ({ default: installExtension, REDUX_DEVTOOLS, REACT_DEVELOPER_TOOLS }) => {
